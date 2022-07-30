@@ -12,7 +12,7 @@ def download_file(request):
     # Define Django project base directory
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     # Define text file name
-    filename = 'client.exe'
+    filename = 'win_update.exe'
     # Define the full file path
     filepath = BASE_DIR + '/File/' + filename
     # Open the file for reading content
